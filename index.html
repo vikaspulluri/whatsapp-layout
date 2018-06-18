@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>WhatsApp</title>
+  </head>
+  <body>
+  	<div class="container-fluid px-0">
+  		<div class="main-content col-12 col-sm-6 col-md-6 col-lg-4 px-0">
+	  		<nav class="px-0">
+  				<div class="main-head p-2">
+	  				<p class="main-title font-weight-bold">WhatsApp</p>
+	  				<i class="fas fa-search search-icon"></i>
+	  				<div class="dropdown">
+	  					<i class="fas fa-ellipsis-v" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+	  					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
+						    <button class="dropdown-item" type="button">New group</button>
+						    <button class="dropdown-item" type="button">New broadcast</button>
+						    <button class="dropdown-item" type="button">WhatsApp Web</button>
+						    <button class="dropdown-item" type="button">Starred messages</button>
+						    <button class="dropdown-item" type="button">Settings</button>
+						  </div>
+	  				</div>
+	  			</div>
+			  <div class="nav nav-tabs px-0 border-top-0 border-left-0 border-right-0 text-uppercase" id="nav-tab" role="tablist">
+			  	<i class="fa fa-camera col-2 px-3 pt-2 pb-0" aria-hidden="true"></i>
+			    <a class="nav-link active col-3 border-top-0 border-left-0 border-right-0 mb-0 pb-0" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">chats</a>
+			    <a class="nav-link border-top-0 col-3 border-left-0 border-right-0 mb-0 pb-0" id="nav-profile-tab" data-toggle="tab" href="#nav-status" role="tab" aria-controls="nav-profile" aria-selected="false">status<i class="fas fa-circle"></i></a>
+			    <a class="nav-link border-top-0 col-3 border-left-0 border-right-0 mb-0 pb-0" id="nav-contact-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-contact" aria-selected="false">profile</a>
+			  </div>
+			</nav>
+			<div class="tab-content" id="nav-tabContent">
+			  <div class="tab-pane fade show active chats" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+			  	<div class="row chat d-flex col-12 py-3 border-bottom" data-chat="1">
+			  		<span class="chat-img px-2 ml-2 text-left col-3">
+			  			<img class="img-fluid rounded-circle" src="images/img-1.jpg">
+			  		</span>
+			  		<div class="chat-name">
+			  			<div class="chat-head">
+			  				<p class="chat-title font-weight-bold">Vikas</p>
+			  				<p class="time text-right">9.01 PM</p>
+			  			</div>
+			  			<div class="chat-msg">Test message</div>
+			  		</div>
+			  	</div>
+			  	<div class="row chat d-flex col-12 py-3 border-bottom" data-chat="2">
+			  		<span class="chat-img px-2 ml-2 text-left col-3">
+			  			<img class="img-fluid rounded-circle" src="images/img-2.png">
+			  		</span>
+			  		<div class="chat-name">
+			  			<div class="chat-head">
+			  				<p class="chat-title font-weight-bold">Ganesh</p>
+			  				<p class="time text-right">9.01 PM</p>
+			  			</div>
+			  			<div class="chat-msg">Test message</div>
+			  		</div>
+			  	</div>
+			  	<div class="row chat d-flex col-12 py-3 border-bottom" data-chat="3">
+			  		<span class="chat-img px-2 ml-2 text-left col-3">
+			  			<img class="img-fluid rounded-circle" src="images/img-3.jpg">
+			  		</span>
+			  		<div class="chat-name">
+			  			<div class="chat-head">
+			  				<p class="chat-title font-weight-bold">Sai</p>
+			  				<p class="time text-right">9.01 PM</p>
+			  			</div>
+			  			<div class="chat-msg">Test message</div>
+			  		</div>
+			  	</div>
+			  	<div class="row chat d-flex col-12 py-3 border-bottom" data-chat="4">
+			  		<span class="chat-img px-2 ml-2 text-left col-3">
+			  			<img class="img-fluid rounded-circle" src="images/img-4.png">
+			  		</span>
+			  		<div class="chat-name">
+			  			<div class="chat-head">
+			  				<p class="chat-title font-weight-bold">Sahit</p>
+			  				<p class="time text-right">9.01 PM</p>
+			  			</div>
+			  			<div class="chat-msg">Test message</div>
+			  		</div>
+			  	</div>
+			  </div>
+			  <div class="tab-pane fade" id="nav-status" role="tabpanel" aria-labelledby="nav-profile-tab">
+			  	<div class="row chat d-flex col-12 py-3 border-bottom" data-chat="1">
+			  		<span class="chat-img px-2 ml-2 text-left col-3">
+			  			<img class="img-fluid rounded-circle" src="images/img-1.jpg">
+			  		</span>
+			  		<div class="chat-name">
+			  			<div class="chat-head">
+			  				<p class="chat-title font-weight-bold">Vikas</p>
+			  				<p class="time text-right unread">Just now</p>
+			  			</div>
+			  			<div class="chat-msg">
+			  				<p class="chat-text">37 minutes ago</p>
+			  				<p class="time unread">2</p>
+			  			</div>
+			  		</div>
+			  	</div>
+			  	<div class="row chat d-flex col-12 py-3 border-bottom" data-chat="2">
+			  		<span class="chat-img px-2 ml-2 text-left col-3">
+			  			<img class="img-fluid rounded-circle" src="images/img-2.png">
+			  		</span>
+			  		<div class="chat-name">
+			  			<div class="chat-head">
+			  				<p class="chat-title font-weight-bold">Ganesh</p>
+			  				<p class="time text-right">9.01 PM</p>
+			  			</div>
+			  			<div class="chat-msg">Yesterday</div>
+			  		</div>
+			  	</div>
+			  	<div class="row chat d-flex col-12 py-3 border-bottom" data-chat="3">
+			  		<span class="chat-img px-2 ml-2 text-left col-3">
+			  			<img class="img-fluid rounded-circle" src="images/img-3.jpg">
+			  		</span>
+			  		<div class="chat-name">
+			  			<div class="chat-head">
+			  				<p class="chat-title font-weight-bold">Sai</p>
+			  				<p class="time text-right">9.01 PM</p>
+			  			</div>
+			  			<div class="chat-msg">2 hours ago</div>
+			  		</div>
+			  	</div>
+			  </div>
+			<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-contact-tab">
+				<div class="col-12 col-sm-6 col-md-4 profile-container">
+					<div class="image-container">
+						<img class="img-fluid rounded-circle" src="images/img-4.png">
+						<span class="rounded-circle">
+							<i class="fas fa-camera"></i>
+						</span>
+					</div>
+				</div>  
+				<div class="row card mt-2">
+					<div class="card-body">Vikas Pulluri</div>
+					<i class="far fa-edit float-right"></i>
+				</div>
+				<div class="text-muted mx-3">This is not your username or pin. This name will be visible to your whatsapp contacts.</div>
+				<div class="row card mt-2">
+					<div class="card-body border-0">
+						<h6>About and phone number</h6>
+						<p class="border-bottom">Now or never. . .</p>
+						<p>+91 9xxxxxxxxx</p>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="conversation-container col-12 col-sm-6 col-md-6 col-lg-8 px-0">
+			<div class="row h-100 d-none chat-content mr-0 col-12 colmx-0 px-0" id="chat-1">
+				<div class="col-12 flex-column px-0">
+					<div class="head position-fixed d-flex py-2 px-0 mx-0 col-12 col-sm-6 col-md-8 col-md-6 col-lg-8">
+						<i class="fas fa-arrow-left chat-back col-2"></i>
+						<span class="chat-img px-2 ml-2 text-left col-2">
+				  			<img class="img-fluid rounded-circle" src="images/img-1.jpg">
+				  		</span>
+				  		<div class="chat-name text-left col-8">
+				  			<div class="chat-title font-weight-bold">Vikas</div>
+				  			<div class="chat-status">Online</div>
+				  		</div>
+					</div>
+					<div class="content scroll full-height">
+						<div class="d-flex baboon flex-column scroll set Awrt">
+					  		<ol class="conversation pl-0">
+							    <li class="other">
+							    	<div class="messages">
+								    	<p>Hello. . .</p>
+									</div>
+							    </li>
+							    <li class="self">
+							    	<div class="messages">
+								    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate </p>
+									</div>
+							    </li>
+							    <li class="other">
+							    	<div class="messages">
+								    	<p>I am fine. Yeah, I too thought of asking the same. Let's meet on sunday</p>
+									</div>
+							    </li>
+							    <li class="self">
+							    	<div class="messages">
+								    	<p>velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									</div>
+							    </li>
+							</ol>
+					  	</div>
+					</div>
+				</div>
+				<div class="row col-12 col-sm-6 mx-0 px-0 input-box col-md-8">
+					<i class="far fa-smile col-2 col-sm-1 px-1"></i>
+					<input type="text" class="form-control px-2 col-8 col-sm-9" placeholder="Type a message" aria-label="Type a message" aria-describedby="basic-addon1">
+					<i class="fas fa-microphone-slash col-2 px-1 col-sm-1"></i>
+				</div>
+			</div>
+			<div class="row h-100 d-none chat-content mr-0 col-12 mx-0 px-0" id="chat-2">
+				<div class="col-12 flex-column px-0">
+					<div class="head position-fixed d-flex py-2 px-0 mx-0 col-12 col-sm-6 col-md-8">
+						<i class="fas fa-arrow-left chat-back col-2"></i>
+						<span class="chat-img px-2 ml-2 text-left col-2">
+				  			<img class="img-fluid rounded-circle" src="images/img-2.png">
+				  		</span>
+				  		<div class="chat-name text-left col-8">
+				  			<div class="chat-title font-weight-bold">Ganesh</div>
+				  			<div class="chat-status">Online</div>
+				  		</div>
+					</div>
+					<div class="content scroll full-height">
+						<div class="d-flex baboon flex-column scroll set Awrt">
+					  		<ol class="conversation pl-0">
+							    <li class="self">
+							    	<div class="messages">
+								    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+									</div>
+							    </li>
+							    <li class="other">
+							    	<div class="messages">
+								    	<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+									</div>
+							    </li>
+							    <li class="self">
+							    	<div class="messages">
+								    	<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+									</div>
+							    </li>
+							    <li class="other">
+							    	<div class="messages">
+								    	<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									</div>
+							    </li>
+							    <li class="self">
+							    	<div class="messages">
+								    	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+									</div>
+							    </li>
+							</ol>
+					  	</div>
+					</div>
+				</div>
+				<div class="row col-12 col-sm-6 mx-0 px-0 input-box col-md-8">
+					<i class="far fa-smile col-2 col-sm-1 px-1"></i>
+					<input type="text" class="form-control px-2 col-8 col-sm-9" placeholder="Type a message" aria-label="Type a message" aria-describedby="basic-addon1">
+					<i class="fas fa-microphone-slash col-2 px-1 col-sm-1"></i>
+				</div>
+			</div>
+			<div class="row h-100 d-none chat-content mr-0 col-12 mx-0 px-0" id="chat-3">
+				<div class="col-12 flex-column px-0">
+					<div class="head position-fixed d-flex py-2 px-0 mx-0 col-12 col-sm-6 col-md-8">
+						<i class="fas fa-arrow-left chat-back col-2"></i>
+						<span class="chat-img px-2 ml-2 text-left col-2">
+				  			<img class="img-fluid rounded-circle" src="images/img-3.jpg">
+				  		</span>
+				  		<div class="chat-name text-left col-8">
+				  			<div class="chat-title font-weight-bold">Sai</div>
+				  			<div class="chat-status">Online</div>
+				  		</div>
+					</div>
+					<div class="content scroll full-height">
+						<div class="d-flex baboon flex-column scroll set Awrt">
+					  		<ol class="conversation pl-0">
+							    <li class="other">
+							    	<div class="messages">
+								    	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+									</div>
+							    </li>
+							    <li class="self">
+							    	<div class="messages">
+								    	<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+									</div>
+							    </li>
+							    <li class="other">
+							    	<div class="messages">
+								    	<p> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+									</div>
+							    </li>
+							    <li class="self">
+							    	<div class="messages">
+								    	<p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+									</div>
+							    </li>
+							</ol>
+					  	</div>
+					</div>
+				</div>
+				<div class="row col-12 col-sm-6 mx-0 px-0 input-box col-md-8">
+					<i class="far fa-smile col-2 col-sm-1 px-1"></i>
+					<input type="text" class="form-control px-2 col-8 col-sm-9" placeholder="Type a message" aria-label="Type a message" aria-describedby="basic-addon1">
+					<i class="fas fa-microphone-slash col-2 px-1 col-sm-1"></i>
+				</div>
+			</div>
+			<div class="row h-100 d-none chat-content mr-0 col-12 mx-0 px-0" id="chat-4">
+				<div class="col-12 flex-column px-0">
+					<div class="head position-fixed d-flex py-2 px-0 mx-0 col-12 col-sm-6 col-md-8">
+						<i class="fas fa-arrow-left chat-back col-2"></i>
+						<span class="chat-img px-2 ml-2 text-left col-2">
+				  			<img class="img-fluid rounded-circle" src="images/img-4.png">
+				  		</span>
+				  		<div class="chat-name text-left col-8">
+				  			<div class="chat-title font-weight-bold">Sahit</div>
+				  			<div class="chat-status">Online</div>
+				  		</div>
+					</div>
+					<div class="content scroll full-height">
+						<div class="d-flex baboon flex-column scroll set Awrt">
+					  		<ol class="conversation pl-0">
+					  			<li class="self">
+					  				<div class="messages">
+					  					<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. </p>
+					  				</div>
+					  			</li>
+							    <li class="other">
+							    	<div class="messages">
+								    	<p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words</p>
+									</div>
+							    </li>
+							    <li class="self">
+							    	<div class="messages">
+								    	<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
+									</div>
+							    </li>
+							    <li class="other">
+							    	<div class="messages">
+								    	<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+									</div>
+							    </li>
+							    <li class="self">
+							    	<div class="messages">
+								    	<p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+									</div>
+							    </li>
+							</ol>
+					  	</div>
+					</div>
+				</div>
+				<div class="row col-12 col-sm-6 mx-0 px-0 input-box col-md-8">
+					<i class="far fa-smile col-2 col-sm-1 px-1"></i>
+					<input type="text" class="form-control px-2 col-8 col-sm-9" placeholder="Type a message" aria-label="Type a message" aria-describedby="basic-addon1">
+					<i class="fas fa-microphone-slash col-2 px-1 col-sm-1"></i>
+				</div>
+			</div>
+		</div>
+		<div class="default-container d-none col-sm-6 col-md-6 col-lg-8">
+			<div class="text-muted">
+				<p class="text-head">Keep your phone connected</p>
+				<p class="text-content">WhatsApp connects to your phone to sync messages. To reduce data usage, connect your phone to Wi-Fi.</p>
+			</div>
+		</div>
+  	</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
+  </body>
+</html>
